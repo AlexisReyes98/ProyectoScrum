@@ -57,7 +57,7 @@
         </Component>
         <Component class="javax.swing.JButton" name="asignar_Mobiles">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Asignaci&#xf3;n de Dispositivos a Marcas"/>
+            <Property name="text" type="java.lang.String" value="Asignaci&#xf3;n de Dispositivos M&#xf3;viles a Marcas"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="asignar_MobilesActionPerformed"/>
@@ -83,7 +83,7 @@
         </Component>
         <Component class="javax.swing.JButton" name="control_Mobiles">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Control de Dispositivs M&#xf3;viles"/>
+            <Property name="text" type="java.lang.String" value="Control de Dispositivos M&#xf3;viles"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="control_MobilesActionPerformed"/>

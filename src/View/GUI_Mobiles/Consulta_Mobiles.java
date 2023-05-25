@@ -68,7 +68,7 @@ public class Consulta_Mobiles extends javax.swing.JFrame {
                 regresar_MenuMobileActionPerformed(evt);
             }
         });
-        jPanel1.add(regresar_MenuMobile, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 330, -1, -1));
+        jPanel1.add(regresar_MenuMobile, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 320, -1, -1));
 
         verMobiles.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/Lupa.png"))); // NOI18N
         verMobiles.setText("Consultar");
@@ -77,7 +77,7 @@ public class Consulta_Mobiles extends javax.swing.JFrame {
                 verMobilesActionPerformed(evt);
             }
         });
-        jPanel1.add(verMobiles, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 270, -1, -1));
+        jPanel1.add(verMobiles, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 270, -1, -1));
 
         tablaMobiles.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -100,7 +100,7 @@ public class Consulta_Mobiles extends javax.swing.JFrame {
         });
         jScrollPane1.setViewportView(tablaMobiles);
 
-        jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 90, 590, 160));
+        jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 90, 590, 160));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/home_wallpaper_0.jpg"))); // NOI18N
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 410));

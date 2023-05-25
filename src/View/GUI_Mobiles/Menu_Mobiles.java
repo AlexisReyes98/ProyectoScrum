@@ -46,34 +46,34 @@ public class Menu_Mobiles extends javax.swing.JFrame {
                 regresar_MenuAdminActionPerformed(evt);
             }
         });
-        jPanel1.add(regresar_MenuAdmin, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 260, -1, -1));
+        jPanel1.add(regresar_MenuAdmin, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 260, -1, -1));
 
-        consulta_Mobile.setText("Consulta de Móviles");
+        consulta_Mobile.setText("Consulta de Dispositivos Móviles");
         consulta_Mobile.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 consulta_MobileActionPerformed(evt);
             }
         });
-        jPanel1.add(consulta_Mobile, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 200, -1, -1));
+        jPanel1.add(consulta_Mobile, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 200, -1, -1));
 
-        baja_Mobile.setText("Baja de Móviles");
+        baja_Mobile.setText("Baja de Dispositivos Móviles");
         baja_Mobile.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 baja_MobileActionPerformed(evt);
             }
         });
-        jPanel1.add(baja_Mobile, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 140, -1, -1));
+        jPanel1.add(baja_Mobile, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 140, -1, -1));
 
-        alta_Mobile.setText("Alta de Móviles");
+        alta_Mobile.setText("Alta de Dispositivos Móviles");
         alta_Mobile.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 alta_MobileActionPerformed(evt);
             }
         });
-        jPanel1.add(alta_Mobile, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 80, -1, -1));
+        jPanel1.add(alta_Mobile, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 80, -1, -1));
 
         jLabel2.setText("Menú Control de Dispositivos Móviles");
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 30, -1, -1));
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 30, -1, -1));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/home_wallpaper_0.jpg"))); // NOI18N
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 510, 330));

@@ -49,7 +49,7 @@ public class MenuPrincipalAdmin extends javax.swing.JFrame {
         });
         jPanel1.add(regresar_Login, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 260, -1, -1));
 
-        asignar_Mobiles.setText("Asignación de Dispositivos a Marcas");
+        asignar_Mobiles.setText("Asignación de Dispositivos Móviles a Marcas");
         asignar_Mobiles.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 asignar_MobilesActionPerformed(evt);
@@ -65,7 +65,7 @@ public class MenuPrincipalAdmin extends javax.swing.JFrame {
         });
         jPanel1.add(control_Marcas, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 150, -1, -1));
 
-        control_Mobiles.setText("Control de Dispositivs Móviles");
+        control_Mobiles.setText("Control de Dispositivos Móviles");
         control_Mobiles.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 control_MobilesActionPerformed(evt);
