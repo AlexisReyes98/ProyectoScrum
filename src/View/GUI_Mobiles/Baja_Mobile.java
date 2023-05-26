@@ -93,7 +93,7 @@ public class Baja_Mobile extends javax.swing.JFrame {
                 JOptionPane.showMessageDialog(null, "El dispositivo fue dado de baja con éxito","",JOptionPane.INFORMATION_MESSAGE);
             }
             else {
-                JOptionPane.showMessageDialog(null, "No se encontró un producto con la clave proporcionada","",JOptionPane.ERROR_MESSAGE);
+                JOptionPane.showMessageDialog(null, "No se encontró un dispositivo con la clave proporcionada","",JOptionPane.ERROR_MESSAGE);
             }
         } else {
             JOptionPane.showMessageDialog(null, "Porfavor, ingresa toda la información","",JOptionPane.ERROR_MESSAGE);
