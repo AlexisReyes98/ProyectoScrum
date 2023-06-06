@@ -5,26 +5,26 @@ package Model;
  *
  * @author alexis
  */
-public class Mark {
-    private String claveMark;
+public class Marca {
+    private String claveMarca;
     private String nombre;
     private String sitioWeb;
 
-    public Mark() {
+    public Marca() {
     }
 
-    public Mark(String claveMark, String nombre, String sitioWeb) {
-        this.claveMark = claveMark;
+    public Marca(String claveMarca, String nombre, String sitioWeb) {
+        this.claveMarca = claveMarca;
         this.nombre = nombre;
         this.sitioWeb = sitioWeb;
     }
 
-    public String getClaveMark() {
-        return claveMark;
+    public String getClaveMarca() {
+        return claveMarca;
     }
 
-    public void setClaveMark(String claveMark) {
-        this.claveMark = claveMark;
+    public void setClaveMarca(String claveMarca) {
+        this.claveMarca = claveMarca;
     }
 
     public String getNombre() {
