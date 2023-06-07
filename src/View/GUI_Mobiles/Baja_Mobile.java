@@ -48,7 +48,7 @@ public class Baja_Mobile extends javax.swing.JFrame {
                 regresar_MenuMobileActionPerformed(evt);
             }
         });
-        jPanel1.add(regresar_MenuMobile, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 200, -1, -1));
+        jPanel1.add(regresar_MenuMobile, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 210, -1, -1));
 
         baja_Mobile.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/Borrar.png"))); // NOI18N
         baja_Mobile.setText("Dar de Baja");
@@ -57,7 +57,7 @@ public class Baja_Mobile extends javax.swing.JFrame {
                 baja_MobileActionPerformed(evt);
             }
         });
-        jPanel1.add(baja_Mobile, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 130, -1, -1));
+        jPanel1.add(baja_Mobile, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 140, -1, -1));
         jPanel1.add(clave_mobile, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 80, 100, -1));
 
         jLabel3.setText("Clave del dispositivo:");
