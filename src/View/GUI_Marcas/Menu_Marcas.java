@@ -98,17 +98,17 @@ public class Menu_Marcas extends javax.swing.JFrame {
     }//GEN-LAST:event_regresar_MenuAdminActionPerformed
 
     private void alta_MarcaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_alta_MarcaActionPerformed
-        //new Alta_Marca().setVisible(true);
+        new Alta_Marca().setVisible(true);
         this.setVisible(false);
     }//GEN-LAST:event_alta_MarcaActionPerformed
 
     private void baja_MarcaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_baja_MarcaActionPerformed
-        //new Baja_Marca().setVisible(true);
+        new Baja_Marca().setVisible(true);
         this.setVisible(false);
     }//GEN-LAST:event_baja_MarcaActionPerformed
 
     private void ver_MarcasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ver_MarcasActionPerformed
-        //new Consultar_Marcas().setVisible(true);
+        new Consultar_Marcas().setVisible(true);
         this.setVisible(false);
     }//GEN-LAST:event_ver_MarcasActionPerformed
 

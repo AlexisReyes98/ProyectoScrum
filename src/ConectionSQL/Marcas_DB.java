@@ -20,7 +20,7 @@ public class Marcas_DB {
     */
     
     // Código para INSERTAR una nueva marca en la tabla de la BD
-    public void altaDepto(Marca marca) {
+    public void altaMarca(Marca marca) {
         Connection cnx = DataBaseConexion.getConnection();
         try {
             PreparedStatement pst = cnx.prepareStatement("INSERT INTO MARCAS(CLAVE_MARCA,NOMBRE,SITIO_WEB)"
@@ -42,7 +42,7 @@ public class Marcas_DB {
     }
     
     // Código para VER la tabla de la BD
-    public ArrayList<Marca> consultarDeptos() {
+    public ArrayList<Marca> consultarMarcas() {
         ArrayList<Marca> marcas = new ArrayList();
         Connection cnx = DataBaseConexion.getConnection();
         try {
@@ -71,14 +71,14 @@ public class Marcas_DB {
     }
     
     // Código para utilizar el Procedimiento almacenado de Oracle PL/SQL (BAJA_MARCA)
-    public void bajaDepto(String clave_depto) {
+    public void bajaMarca(String claveMarca) {
         Connection cnx = DataBaseConexion.getConnection();
         try {
             // Se realiza la llamada al pocedimiento de la BD
             CallableStatement cst = cnx.prepareCall("{call BAJA_MARCA (?)}");
             
             // Parametro para el procedimiento almacenado
-            cst.setString(1, clave_depto);
+            cst.setString(1, claveMarca);
             
             // Ejecuta el procedimiento almacenado
             cst.executeUpdate();
@@ -95,14 +95,14 @@ public class Marcas_DB {
     }
     
     // Código para BUSCAR una marca en la tabla de la BD
-    public boolean buscaDepto(String clave_depto) {
+    public boolean buscaMarca(String claveMarca) {
         Connection cnx = DataBaseConexion.getConnection();
         Marca marca = new Marca();
         boolean ban = false;
         try {
             PreparedStatement pst = cnx.prepareStatement("SELECT CLAVE_MARCA,NOMBRE,SITIO_WEB"
-                    + " FROM MARCAS WHERE CLAVE_DEPTO like (?)");
-            pst.setString(1, clave_depto);
+                    + " FROM MARCAS WHERE CLAVE_MARCA like (?)");
+            pst.setString(1, claveMarca);
             ResultSet rs = pst.executeQuery();
             while (rs.next()) {
                 marca.setClaveMarca("CLAVE_MARCA");
@@ -112,7 +112,7 @@ public class Marcas_DB {
             }
         } catch (SQLException ex) {
             System.out.println(ex.getMessage());
-            System.out.println("Error al mostrar el departamento");
+            System.out.println("Error al mostrar la marca");
         } finally {
             try {
                 cnx.close();
