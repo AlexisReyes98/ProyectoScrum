@@ -65,7 +65,7 @@ public class Consultar_Marcas extends javax.swing.JFrame {
                 regresaMenuMarcasActionPerformed(evt);
             }
         });
-        jPanel1.add(regresaMenuMarcas, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 290, -1, -1));
+        jPanel1.add(regresaMenuMarcas, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 290, -1, -1));
 
         verMarcas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/Lupa.png"))); // NOI18N
         verMarcas.setText("Consulta de Marcas");
@@ -74,7 +74,7 @@ public class Consultar_Marcas extends javax.swing.JFrame {
                 verMarcasActionPerformed(evt);
             }
         });
-        jPanel1.add(verMarcas, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 230, -1, -1));
+        jPanel1.add(verMarcas, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 230, -1, -1));
 
         tablaMarcas.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -89,13 +89,13 @@ public class Consultar_Marcas extends javax.swing.JFrame {
         ));
         jScrollPane1.setViewportView(tablaMarcas);
 
-        jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 50, 500, 160));
+        jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 50, 590, 160));
 
         jLabel2.setText("Consulta de marcas registradas");
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 20, -1, -1));
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 20, -1, -1));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/home_wallpaper_0.jpg"))); // NOI18N
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 630, 350));
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 690, 350));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -105,7 +105,7 @@ public class Consultar_Marcas extends javax.swing.JFrame {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 353, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         pack();
