@@ -1,6 +1,7 @@
 
 package View.GUI_MenuAdmin;
 
+import View.GUI_AssignmentMobile.Menu_AssignmentMobie;
 import View.GUI_Login.Login;
 import View.GUI_Marcas.Menu_Marcas;
 import View.GUI_Mobiles.Menu_Mobiles;
@@ -105,7 +106,8 @@ public class MenuPrincipalAdmin extends javax.swing.JFrame {
     }//GEN-LAST:event_control_MarcasActionPerformed
 
     private void asignar_MobilesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_asignar_MobilesActionPerformed
-        // TODO add your handling code here:
+        new Menu_AssignmentMobie().setVisible(true);
+        this.setVisible(false);
     }//GEN-LAST:event_asignar_MobilesActionPerformed
 
     private void regresar_LoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_regresar_LoginActionPerformed
