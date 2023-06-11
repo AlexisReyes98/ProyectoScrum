@@ -53,7 +53,7 @@ public class Alta_Marca extends javax.swing.JFrame {
                 regresarMenuMarcasActionPerformed(evt);
             }
         });
-        jPanel1.add(regresarMenuMarcas, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 280, -1, -1));
+        jPanel1.add(regresarMenuMarcas, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 280, -1, -1));
 
         altaMarca.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/GuardarTodo.png"))); // NOI18N
         altaMarca.setText("Dar de alta");
@@ -62,7 +62,7 @@ public class Alta_Marca extends javax.swing.JFrame {
                 altaMarcaActionPerformed(evt);
             }
         });
-        jPanel1.add(altaMarca, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 230, -1, -1));
+        jPanel1.add(altaMarca, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 230, -1, -1));
         jPanel1.add(altaSitioWeb, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 180, 150, -1));
         jPanel1.add(altaNombre, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 130, 150, -1));
         jPanel1.add(altaClaveMarca, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 80, 150, -1));

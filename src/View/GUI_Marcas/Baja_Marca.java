@@ -48,7 +48,7 @@ public class Baja_Marca extends javax.swing.JFrame {
                 regresaMenuMarcasActionPerformed(evt);
             }
         });
-        jPanel1.add(regresaMenuMarcas, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 210, -1, -1));
+        jPanel1.add(regresaMenuMarcas, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 210, -1, -1));
 
         bajaMarca.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/Borrar.png"))); // NOI18N
         bajaMarca.setText("Dar de baja");
@@ -57,7 +57,7 @@ public class Baja_Marca extends javax.swing.JFrame {
                 bajaMarcaActionPerformed(evt);
             }
         });
-        jPanel1.add(bajaMarca, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 150, -1, -1));
+        jPanel1.add(bajaMarca, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 150, -1, -1));
         jPanel1.add(claveMarca, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 90, 170, -1));
 
         jLabel3.setText("Clave de la marca:");

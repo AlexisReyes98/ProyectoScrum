@@ -59,7 +59,7 @@ public class Alta_Mobile extends javax.swing.JFrame {
                 regresar_MenuMobileActionPerformed(evt);
             }
         });
-        jPanel1.add(regresar_MenuMobile, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 280, -1, -1));
+        jPanel1.add(regresar_MenuMobile, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 280, -1, -1));
 
         altaMobile.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/GuardarTodo.png"))); // NOI18N
         altaMobile.setText("Dar de Alta");
@@ -68,7 +68,7 @@ public class Alta_Mobile extends javax.swing.JFrame {
                 altaMobileActionPerformed(evt);
             }
         });
-        jPanel1.add(altaMobile, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 230, -1, 30));
+        jPanel1.add(altaMobile, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 230, -1, 30));
 
         jLabel6.setText("Precio:");
         jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 190, -1, -1));

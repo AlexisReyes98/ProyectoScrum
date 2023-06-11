@@ -68,7 +68,7 @@ public class Consulta_Mobiles extends javax.swing.JFrame {
                 regresar_MenuMobileActionPerformed(evt);
             }
         });
-        jPanel1.add(regresar_MenuMobile, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 320, -1, -1));
+        jPanel1.add(regresar_MenuMobile, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 320, -1, -1));
 
         verMobiles.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/Lupa.png"))); // NOI18N
         verMobiles.setText("Consultar");

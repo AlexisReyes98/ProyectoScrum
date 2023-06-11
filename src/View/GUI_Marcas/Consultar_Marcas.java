@@ -65,7 +65,7 @@ public class Consultar_Marcas extends javax.swing.JFrame {
                 regresaMenuMarcasActionPerformed(evt);
             }
         });
-        jPanel1.add(regresaMenuMarcas, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 290, -1, -1));
+        jPanel1.add(regresaMenuMarcas, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 290, -1, -1));
 
         verMarcas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/Lupa.png"))); // NOI18N
         verMarcas.setText("Consulta de Marcas");
