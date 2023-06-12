@@ -90,3 +90,9 @@ Baja de un dispositivo móvil en una marca:
 Consulta de dispositivos móviles en una marca:
 
 ![imagen](https://github.com/AlexisReyes98/ProyectoScrum/assets/72325257/1f180022-6858-49b8-b673-66576cf98ff0)
+
+Menú de opciones (administrador):
+
+![imagen](https://github.com/AlexisReyes98/ProyectoScrum/assets/72325257/8ac0d942-efb7-4ed2-a7f3-9e64ee59a9f4)
+
+Para las interfaces de consultas son parecidas a las del administrador.
