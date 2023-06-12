@@ -108,11 +108,11 @@ public class Consulta_Mobile_Marca extends javax.swing.JFrame {
                 {null, null, null}
             },
             new String [] {
-                "CLAVE_MOBILE", "NOMBRE", "PRECIO"
+                "Clave Móvil", "Nombre", "Precio"
             }
         ) {
             boolean[] canEdit = new boolean [] {
-                false, true, true
+                false, true, false
             };
 
             public boolean isCellEditable(int rowIndex, int columnIndex) {

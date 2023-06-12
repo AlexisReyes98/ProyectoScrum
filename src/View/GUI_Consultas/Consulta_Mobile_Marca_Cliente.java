@@ -109,7 +109,7 @@ public class Consulta_Mobile_Marca_Cliente extends javax.swing.JFrame {
                 {null, null, null}
             },
             new String [] {
-                "CLAVE_MOBILE", "NOMBRE", "PRECIO"
+                "Clave Móvil", "Nombre", "Precio"
             }
         ) {
             boolean[] canEdit = new boolean [] {
